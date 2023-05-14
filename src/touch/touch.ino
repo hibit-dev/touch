@@ -13,7 +13,7 @@ touch touch;
 
 void setup()
 {
-  pinMode(BUTTON_PIN, INPUT);
+  pinMode(BUTTON_PIN, INPUT_PULLUP);
 
   Serial.begin(115200);
 }
